@@ -231,7 +231,7 @@ aside:
       enable: true
       icon: fab fa-github
       text: Follow Me
-      link: https://github.com/xxxxxx
+      link: https://github.com/HiPing-20
   card_announcement:
     enable: true
     content: This is my Blog
@@ -275,7 +275,7 @@ busuanzi:
 # Time difference between publish date and now (網頁運行時間)
 # Formal: Month/Day/Year Time or Year/Month/Day Time
 runtimeshow:
-  enable: false
+  enable: true
   publish_date:
 
 # Aside widget - Newest Comments
@@ -478,7 +478,7 @@ facebook_comments:
   user_id: # optional
   pageSize: 10 # The number of comments to show
   order_by: social # social/time/reverse_time
-  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+  lang: zh_CN # Language en_US/zh_CN/zh_TW and so on
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
@@ -553,7 +553,7 @@ crisp:
 messenger:
   enable: false
   pageID:
-  lang: zh_TW # Language en_US/zh_CN/zh_TW and so on
+  lang: zh_CN # Language en_US/zh_CN/zh_TW and so on
 
 # Analysis
 # --------------------------------------
@@ -580,10 +580,10 @@ microsoft_clarity:
 # Google Adsense (谷歌廣告)
 google_adsense:
   enable: false
-  auto_ads: true
+  auto_ads: false
   js: https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js
   client:
-  enable_page_level_ads: true
+  enable_page_level_ads: false
 
 # Insert ads manually (手動插入廣告)
 # ad:
